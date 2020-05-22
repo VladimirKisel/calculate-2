@@ -1,0 +1,150 @@
+body {
+     margin-top: 20px;
+}
+.container {
+	border: 7px solid #aeaeae;
+	padding: 20px 120px 20px 40px;
+	display: flex;
+	 flex-direction: column;
+
+   } 
+#tupe-tz {
+	position: relative;
+	font-size: 15px;
+	font-weight: 600;
+	display: flex;
+	flex-basis: 30px; 
+	margin: 4px;
+	
+	flex-grow: 1;
+}
+#cat-tz {
+	position: relative;
+	font-size: 15px;
+	font-weight: 600;
+	display: flex;
+	flex-basis: 30px; 
+	margin: 4px;	
+	flex-grow: 1;
+}
+
+#cities-check {
+	position: relative;
+	font-size: 15px;
+	font-weight: 600;
+	display: flex;
+	flex-basis: 30px; 
+	margin: 4px;	
+	flex-grow: 1;
+}
+#scope-use {
+	position: relative;
+	font-size: 15px;
+	font-weight: 600;
+	display: flex;
+	flex-basis: 30px; 
+	margin: 4px;	
+	flex-grow: 1;
+}
+#driving-experience {
+	position: relative;
+	font-size: 15px;
+	font-weight: 600;
+	display: flex;
+	flex-basis: 30px; 
+	margin: 4px;	
+	flex-grow: 1;
+}
+#period-use {
+	position: relative;
+	font-size: 15px;
+	font-weight: 600;
+	display: flex;
+	flex-basis: 30px; 
+	margin: 4px;	
+	flex-grow: 1;
+}
+#calculate {
+	position: relative;
+	font-size: 40px;
+	font-weight: 700;	
+	width: 260px;
+	margin: 4px;
+	align-items: center;
+	display: inline-block;
+	margin:0 auto;
+}
+.bttn{
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px 120px 20px 40px;
+}
+#dialog{
+	border: 5px solid #aeaeae;
+	padding: 20px 120px 20px 40px;
+	display: none;
+	 flex-direction: column;
+	 font-size: 15px;
+	font-weight: 600;
+	text-align: left;
+}
+#zakaz{
+	/*margin: 18px 160px 4px 160px;*/
+	padding: 8px;
+	min-width: 358px;
+	max-width: 610px;
+	font-size: 20px;
+	background-color: rgba(235,29,63,0.5);
+}
+#close{
+	 
+	min-width: 58px;
+	max-width: 110px;
+	margin:18px;
+}
+.close{
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   opacity: 1;
+   font-size: 20px;
+}
+.zakaz{
+	/*position: relative;*/
+	/*display: flex;*/
+	align-items: center;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    opacity: 1;
+     
+}
+#calc{
+	position: relative;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 18px 160px 4px 160px;
+	text-align: center;	
+	border: 4px solid #aeaeae;
+	background-color: rgba(11,156,49,0.8);
+	width: 300px;
+}
+#tel{
+	/*margin: 18px 160px 4px 160px;*/
+}
+#email{
+	/*margin: 18px 160px 4px 160px;*/
+}
+div.field{
+	padding-bottom: 5px;
+}
+div.field label {
+	display: block;
+	float: left;
+	width: 170px;
+	height: 15px;
+}
